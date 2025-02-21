@@ -25,7 +25,7 @@ namespace ASOFTCIM
                 packet.DeviceId = EqpData.DeviceId;
                 packet.SystemByte = EqpData.TransactionSys;
                 packet.addItem(DataType.Ascii, ACK);
-
+                var a = 10;
                 packet.Send2Sys();
             }
             catch (Exception ex)
